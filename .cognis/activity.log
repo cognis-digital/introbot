@@ -1,3 +1,4 @@
 2024-06-14T11:47:37  chore(detect): add a --format json alias
 2024-06-28T18:04:44  test(report): clarify the README quickstart
 2024-07-12T13:21:51  ci(config): fix off-by-one in line numbers
+2024-07-27T08:38:58  chore(fixtures): guard against ReDoS in patterns
