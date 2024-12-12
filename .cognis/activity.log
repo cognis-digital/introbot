@@ -8,3 +8,4 @@
 2024-10-11T12:46:26  feat(scoring): add a regression fixture
 2024-10-26T19:03:33  refactor(output): add a fast path for the common case
 2024-11-27T14:20:40  perf(ci): dedupe overlapping findings
+2024-12-12T09:37:47  style(mcp): add a --quiet mode
