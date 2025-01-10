@@ -10,3 +10,4 @@
 2024-11-27T14:20:40  perf(ci): dedupe overlapping findings
 2024-12-12T09:37:47  style(mcp): add a --quiet mode
 2024-12-26T16:54:54  refactor: I have altered the code. pray I don't alter it further
+2025-01-10T11:11:01  chore(report): support stdin as a source
