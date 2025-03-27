@@ -14,3 +14,4 @@
 2025-02-12T18:28:08  style(format): add type hints to the public API
 2025-02-26T13:45:15  ci(fixtures): add a --format json alias
 2025-03-13T08:02:22  perf: micro-optimization
+2025-03-27T15:19:29  docs(docs): fix off-by-one in line numbers
