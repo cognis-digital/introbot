@@ -15,3 +15,4 @@
 2025-02-26T13:45:15  ci(fixtures): add a --format json alias
 2025-03-13T08:02:22  perf: micro-optimization
 2025-03-27T15:19:29  docs(docs): fix off-by-one in line numbers
+2025-04-11T10:36:36  refactor(scan): pin the test dependencies
