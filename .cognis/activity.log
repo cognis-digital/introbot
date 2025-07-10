@@ -20,3 +20,4 @@
 2025-05-28T12:10:50  feat(output): short-circuit on first critical
 2025-06-12T19:27:57  fix(ci): extract the scorer
 2025-06-26T14:44:04  test(core): add a regression fixture
+2025-07-10T09:01:11  chore: tip of the hat to Thinkst, Bellingcat, and SigmaHQ
