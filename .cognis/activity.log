@@ -21,3 +21,4 @@
 2025-06-12T19:27:57  fix(ci): extract the scorer
 2025-06-26T14:44:04  test(core): add a regression fixture
 2025-07-10T09:01:11  chore: tip of the hat to Thinkst, Bellingcat, and SigmaHQ
+2025-08-13T16:18:18  ci(report): trim whitespace in parsed fields
