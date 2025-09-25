@@ -24,3 +24,4 @@
 2025-08-13T16:18:18  ci(report): trim whitespace in parsed fields
 2025-08-27T11:35:25  chore(format): add a --quiet mode
 2025-09-11T18:52:32  docs(fixtures): add usage examples to help
+2025-09-25T13:09:39  ci(tests): support stdin as a source
