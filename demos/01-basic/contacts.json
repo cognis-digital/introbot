@@ -1,0 +1,13 @@
+{
+  "team": ["Alice", "Bob"],
+  "contacts": [
+    {"from": "Alice", "to": "Carol", "strength": 0.9, "via": "coworker"},
+    {"from": "Carol", "to": "Erin", "strength": 0.85, "via": "linkedin"},
+    {"from": "Erin", "to": "Dana Reyes", "strength": 0.8, "via": "conference"},
+    {"from": "Bob", "to": "Frank", "strength": 0.3, "via": "email"},
+    {"from": "Frank", "to": "Dana Reyes", "strength": 0.35},
+    {"from": "Carol", "to": "Greg", "strength": 0.6, "via": "alumni"},
+    {"from": "Carol", "to": "Frank", "strength": 0.5},
+    {"from": "Bob", "to": "Carol", "strength": 0.4, "via": "meetup"}
+  ]
+}
