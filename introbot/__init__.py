@@ -1,2 +1,11 @@
-"""INTROBOT — Find warm-intro paths through your team's combined network graph and draft double-opt-in intro requests from a single contacts manifest."""
-__version__ = "0.1.0"
+"""introbot — part of the Cognis Neural Suite."""
+try:  # re-export the tool's public API + identity from core
+    from introbot.core import *  # noqa: F401,F403
+except Exception:  # pragma: no cover
+    pass
+try:
+    from introbot.core import TOOL_NAME, TOOL_VERSION
+except Exception:  # pragma: no cover
+    TOOL_NAME = "introbot"
+    TOOL_VERSION = "0.1.0"
+__version__ = TOOL_VERSION
