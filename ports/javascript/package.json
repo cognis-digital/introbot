@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/introbot",
+  "version": "0.2.0",
+  "description": "JavaScript port of introbot (Cognis Neural Suite)",
+  "bin": {
+    "introbot": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
