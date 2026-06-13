@@ -20,6 +20,12 @@ pip install "git+https://github.com/cognis-digital/introbot.git"
 introbot scan .            # → prioritized findings in seconds
 ```
 
+<!-- cognis:layman:start -->
+## What is this?
+
+introbot helps you find the warmest path to someone you want to meet — using the contacts your team already has. You give it a list of who knows who, and it figures out the shortest chain of trusted introductions to reach your target. Instead of cold-messaging a stranger, you get a clear step-by-step route like "Alice can introduce you to Carol, who knows Dana." It's a command-line tool that runs on your own computer, works from a simple spreadsheet or JSON file, and is built for sales teams, founders, and anyone who needs to turn a cold contact into a warm handshake.
+<!-- cognis:layman:end -->
+
 ## Contents
 
 - [Why introbot?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
@@ -46,6 +52,42 @@ Self-hosted relationship graph — keep your investor/partner network private on
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:install:start -->
+## Install
+
+`introbot` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/introbot/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/introbot/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/introbot.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/introbot.git"  # uv
+pip install "git+https://github.com/cognis-digital/introbot.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/introbot.git
+cd introbot && pip install .
+```
+
+Then run:
+```sh
+introbot --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
