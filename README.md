@@ -20,6 +20,30 @@ pip install cognis-introbot
 introbot scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+`introbot` reads a contacts manifest (JSON or CSV) and finds warm-intro paths
+through your network. Two subcommands: `path` and `connectors`.
+
+```bash
+# 1. Install
+pip install -e .
+
+# 2. Find the shortest warm-intro path to a target
+introbot path -m contacts.csv -t "Jane Investor"
+
+# 3. Override which people count as "your team" (repeatable -s)
+introbot path -m contacts.json -t "Jane Investor" -s "Me" -s "Cofounder"
+
+# 4. Rank the network's super-connectors (useful hubs)
+introbot connectors -m contacts.csv --top 10 --format json
+
+# 5. Automation — pull the next hop programmatically
+introbot path -m contacts.json -t "Jane Investor" --format json \
+  | jq -r '.path[1].name'
+```
+
+
 ## Contents
 
 - [Why introbot?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
